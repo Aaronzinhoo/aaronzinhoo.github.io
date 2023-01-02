@@ -7,33 +7,32 @@ version: 2
 
 # Personal info
 name: Aaron Gonzales
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+title: Senior Software Engineer
+email: aarongonzales1@gmai.com
+website: https://aaronzinhoo.github.io
 
 # Dark Mode (true/false/never)
 darkmode: true
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
+github_username:  Aaronzinhoo
+linkedin_username: aaron-gonzales-330482b1
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
+# instagram_username: jameswgrant
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
+# youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+# additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -48,11 +47,38 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  Hi, my name's Aaron and I'm a senior software engineer. I have experience in a multitude of areas with my most recent endeavor being web development. I also have extensive experience in computer vision having done research during my tenure at UCLA and NeuralX. Coming from a Mathematics background, I am    analytical and love to solve difficult problems in innovative, elegant, and simple ways and share what I learn along the way with my team. When I am not coding or reading something software related, I typically am spending quality time with my wife and dog (Miu Miu), playing games, or catching up on anime.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
-
+  I am most skilled in: <mark>Python</mark> and <mark>Overwatch</mark>
 content:
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: LinQuest Corporation
+        sub_title: Senior Software Engineer
+        caption: December 2021 - Present
+        description: | # this will include new lines to allow paragraphs
+            During my time at LinQuest I have cultivated a love for web development having prior known very little at all. Initially coming in as a frontend developer working on their <mark>Angular</mark> application, I quickly transitioned into backend development in <mark>Java</mark>, <mark>Python</mark>, and <mark>Go</mark> to assist across the teams. Within in 6 months, I was comfortable in all areas of our DevOps pipeline being able to assist in bash scripting for the toolchain and platform team, develop robust and accurate REST services for the backend team, and even tackle the occasional frontend bug we may have. Throughout my time I have used various frameworks such as Pyramid, Spring, Tornado, Angular, Gorilla, and more and feel comfortable jumping into any environment regardless of the tech stack.
+
+            I was fortunate enough to be trusted with more responsibility and began crafting our architecture and standardizing practices across internal and external teams. I tackled several large problems during my tenure at LinQuest including increasing the maintainability of our CI/CD pipeline by refactoring base workflows into plugin based Github reusable workflows and github-actions to be reused across reusable workflows. This transition improved realiability of the CI/CD pipeline for all teams by providing a customizable, extendable, and easily fixable approach to building, scanning, and deploying applications. In addition to the above, I crafted a websocket service and messaging scheme between server and clients to provide real-time domain updates, centralized our alerting system and interface to data brokers to reduce coupling. Laslty, I reevaluated previous architecture solutions and provided simpler alternatives such as combining microservices when their coupling was too tight.
+
+            Our services and CI/CD Pipelines are nice, but eventually needed to get familiarity with our platform tools and services, such as <mark>Kafka</mark>, <mark>Prometheus</mark>, <mark>Grafana</mark>, <mark>LinkerD</mark>, and <mark>Kubernetes</mark>, that were the backbone of our Architecture. I solved several issues related to <mark>Kafka</mark> scaling but one particular solution improved scalability of our microservices by at least 400% and removed a common infinite kafka rebalancing error in our consumers. The issue stemmed from large events forcing consumers to constantly rebalance and was resolved by minimizing size of events pushed to topics while keeping consumers decoupled as well as ensuring consumer settings were better suited for longer running algorithms.
+
+            LinQuest provided me the tools to keep calm and persevere under strenuous conditions. I Deployed and debugged our application with over 30 micro-services on an IL6 staging environment with basic tools and no external resources (A.K.A The Dungeon). We performed Blue/Green deployment inlcuding recovery operations while ensuring minimal downtime and disruption for users. I have become comfortable with identifying and resolving various platform and software issues  including, but not limited to, malformed or incorrect client and CA certificates (authentication with external applications), <mark>Postgres</mark> and <mark>MongoDB</mark> database configuration and storage, <mark>Kustomize</mark> configuration, misalignment in service versions, and <mark>Kafka</mark> broker storage and networking. Considering the lack of resources in the high-side environment I provided extensive documentation on the deployment folder structure,  process, helper scripts for common actions, common issue resolutions to save anyone else from suffering.
+
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: University of California, Los Angeles
+        caption: 2015 - 2018
+        sub_title: B.S. Mathematics of Computation
+        sub_title: Minor in Cognitive Science
+        description: | # this will include new lines to allow paragraphs
+          During my time at UCLA, I took many courses related to Algorithms, Artificial Intelligence, and Machine Learning including several graduate level courses. In my free time I would assist in research and spent time in several labs including the Human Perception Laboratory, Computer Vision Lab, and the VCLA Lab.
+
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -71,46 +97,6 @@ content:
           This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
           I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
-
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
-
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
