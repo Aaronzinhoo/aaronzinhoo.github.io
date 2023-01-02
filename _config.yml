@@ -57,6 +57,8 @@ content:
       - layout: left
         title: LinQuest Corporation
         sub_title: Senior Software Engineer
+        quote: >
+          National security space leader that enables defense and intelligence missions through advanced digital solutions and the development, integration, and operation of mission critical systems.
         caption: December 2020 - Present
         description: | # this will include new lines to allow paragraphs
             During my time at LinQuest I have cultivated a love for web development having prior known very little at all. Initially coming in as a frontend developer working on their <mark>Angular</mark> application, I quickly transitioned into backend development in <mark>Java</mark>, <mark>Python</mark>, and <mark>Go</mark> to assist across the teams. Within in 6 months, I was comfortable in all areas of our DevOps pipeline being able to assist in bash scripting for the toolchain and platform team, develop robust and accurate REST services for the backend team, and even tackle the occasional frontend bug we may have. Throughout my time I have used various frameworks such as Pyramid, Spring, Tornado, Angular, Gorilla, and more and feel comfortable jumping into any environment regardless of the tech stack.
@@ -74,15 +76,16 @@ content:
         title: NeuralX (MJ Style)
         sub_title: Research Software Engineer
         caption: August 2019 - November 2020
+        quote: >
+          Artificial Intelligence powered fashion analytics enabling businesses to make smarter decisions.
         description: | # this will include new lines to allow paragraphs
-            NeuralX provided me with an opportunity to apply my skills from UCLA in a professional working environment. I quickly adapted into the fast pace startup culture having to independently develop, train, and evaluated network models, including ResNet-101, LIP-JPP Net, FPN + Faster R-CNN, to build a complete fashion classification, detection, and segmentation pipeline that identifies color, type, and patterns of clothing in images.
+            NeuralX provided me with an opportunity to apply my skills from UCLA in a professional working environment. I quickly adapted into the fast pace startup culture having to independently develop or modify, preprocess data, train, and evaluate deep learning models, including ResNet-101, LIP-JPP Net, FPN + Faster R-CNN, to build a complete fashion classification, detection, and segmentation pipeline that identifies color, type, and patterns of clothing in images.
 
             I developed and maintained the <mark>ETL</mark> pipeline in <mark>C</mark> (I felt it was simpler than <mark>C++</mark> and felt more comfortable with <mark>C</mark> overall.) to maximize performance of the transform portion while using <mark>Python</mark> and <mark>Bash</mark> to perform data extraction and loading. Images would be uploaded to an <mark>S3 Bucket</mark> alongside some metadata in <mark>MongoDB</mark> for easy fetching. The pipeline acheived 50x amount of images on average versus an initial implementation done in <mark>Python</mark> solely allowing me to run our pipeline on a single machine with minimal costs overall.
 
             To ensure reliable, consistent, and easily testable changes to our datasets I developed an MLOps pipeline using <mark>CircleCI</mark> and <mark>Docker</mark> to simplify the tedious data harvesting, training, evaluation, and deployment of our fashion detection application. In addition to our ML pipeline I developed pipelines to and publish libraries into <mark>Nexus</mark> to use across different parts of the pipeline. I also included data visualization libraries such as <mark>Matplotlib</mark> to visualize pipeline data collected in a digestable fashion for our clients.
 
             In addition to the Machine Learning aspect, I helped a small team of developers build a website to visualize the results of our pipeline in various forms including graphs, image catalogs, and reports. I participated in frontend and backend development comprised of a <mark>React</mark> application deployed on <mark>AWS</mark> as an EC2 instance using <mark>Nginx</mark> and a <mark>Spring Boot</mark> service to provide collected data analytics and images.
-
 
   - title: ""
     layout: list
@@ -92,7 +95,7 @@ content:
         sub_title: Research Software Engineer
         caption: August 2017 - December 2018
         description: | # this will include new lines to allow paragraphs
-            - Developed a novel dropout method largely influenced by Hebbian Learning and distributed programming to provide a regularization method that increased model robustness. Implemented unit and integration testing to ensure reliability of results and maintenance of packages. Collaborated with colleagues to analyze algorithmic complexity and implementation of custom packages/software. Utilized Docker to maintain consistent development and testing of packages.
+            I participated in researching a novel dropout method largely influenced by Hebbian Learning to provide a regularization method that increased neural network model robustness by 8% on average across datasets. I created a simple pipeline in <mark>Python</mark> to allow users to train and test our model for reproducible results. To enable participation and collaboration from more members of the lab, I packaged this pipeline in <mark>Docker</mark> as a Jupyter Notebook file to provide a simpler UI to interact with. I provided documentation and unit testing for reliability various portions of our pipeline. Collaborated with post docs to analyze algorithmic complexity and implementation of custom packages/software. In addition to development, I maintained the single Ubuntu machine and user accounts in the lab running routine updates and ensuring the necessary packages were installed to perform the various lab memebers work.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -102,7 +105,7 @@ content:
         caption: 2015 - 2018
         sub_title: B.S. Mathematics of Computation, Minor in Cognitive Science
         description: | # this will include new lines to allow paragraphs
-          During my time at UCLA, I took many courses related to Algorithms, Artificial Intelligence, and Machine Learning including several graduate level courses. In my free time I would assist in research and spent time in several labs including the Human Perception Laboratory, Computer Vision Lab, and the VCLA Lab.
+          During my time at UCLA, I took courses related to Algorithms, Artificial Intelligence, and Machine Learning including several graduate level courses. In my free time I would assist in research and spent time in several labs including the Human Perception Laboratory, Computer Vision Lab, and the VCLA Lab.
 
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
