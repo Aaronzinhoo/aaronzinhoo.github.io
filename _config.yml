@@ -57,7 +57,7 @@ content:
       - layout: left
         title: LinQuest Corporation
         sub_title: Senior Software Engineer
-        caption: December 2021 - Present
+        caption: December 2020 - Present
         description: | # this will include new lines to allow paragraphs
             During my time at LinQuest I have cultivated a love for web development having prior known very little at all. Initially coming in as a frontend developer working on their <mark>Angular</mark> application, I quickly transitioned into backend development in <mark>Java</mark>, <mark>Python</mark>, and <mark>Go</mark> to assist across the teams. Within in 6 months, I was comfortable in all areas of our DevOps pipeline being able to assist in bash scripting for the toolchain and platform team, develop robust and accurate REST services for the backend team, and even tackle the occasional frontend bug we may have. Throughout my time I have used various frameworks such as Pyramid, Spring, Tornado, Angular, Gorilla, and more and feel comfortable jumping into any environment regardless of the tech stack.
 
@@ -65,14 +65,15 @@ content:
 
             I also became familiar with our platform tools and services, such as <mark>Kafka</mark>, <mark>Prometheus</mark>, <mark>Grafana</mark>, <mark>LinkerD</mark>, and <mark>Kubernetes (EKS)</mark>, that were the backbone of our DevOps cycle. We faced several growing pains with <mark>Kafka</mark> that reduced our ability to scale consumers. The issue stemmed from large events forcing consumers to constantly rebalance and was resolved by minimizing size of events pushed to topics and ensuring consumer settings were optimized for longer running algorithms. This fix lead to an increase in scalability by at least 400% (3 pods to 12 pods but did not test beyond that) and removed a common infinite kafka rebalancing error in our consumers.<mark>Prometheus</mark>, <mark>Grafana</mark> were essential in tracking down the troubled services and determining whne the issues occured.
 
-            LinQuest provided me the tools to keep calm and persevere under strenuous conditions. I Deployed and debugged our application with over 30 micro-services on an IL6 staging environment with basic tools (OOTB shell) and no external resources (A.K.A The Dungeon). Our application used a Blue/Green deployment  which ensured minimal downtime and disruption for our users. I am comfortable with identifying and resolving various platform and software issues including, but not limited to, malformed or incorrect client and CA certificates (m/TLS with external applications), <mark>Postgres</mark> and <mark>MongoDB</mark> database configuration and storage, <mark>Kustomize</mark> configuration, misalignment in service versions, and <mark>Kafka</mark> broker storage and networking under these conditions. Considering the lack of resources in the high-side environment I provided extensive documentation on the deployment folder structure,  process, helper scripts for common actions, common issue resolutions to save anyone else from suffering. I believe this makes me highly capable in any environment regardless of the work conditions.
+            LinQuest provided me the tools to keep calm and persevere under strenuous conditions. I Deployed and debugged our application with over 30 micro-services on an IL6 staging environment with basic tools (minimal terminal) and no external resources (A.K.A The Dungeon). Our application used a Blue/Green deployment  which ensured minimal downtime and disruption for our users. I am comfortable with identifying and resolving various platform and software issues including, but not limited to, malformed or incorrect client and CA certificates (m/TLS with external applications), <mark>Postgres</mark> and <mark>MongoDB</mark> database configuration and storage, <mark>Kustomize</mark> configuration, misalignment in service versions, and <mark>Kafka</mark> broker storage and networking under these conditions. Considering the lack of resources in the high-side environment I provided extensive documentation on the deployment folder structure,  process, helper scripts for common actions, common issue resolutions to save anyone else from suffering. I believe this makes me highly capable in any environment regardless of the work conditions.
+
   - title: ""
     layout: list
     content:
       - layout: left
         title: NeuralX (MJ Style)
         sub_title: Research Software Engineer
-        caption: August 2020 - November 2021
+        caption: August 2019 - November 2020
         description: | # this will include new lines to allow paragraphs
             NeuralX provided me with an opportunity to apply my skills from UCLA in a professional working environment. I quickly adapted into the fast pace startup culture having to independently develop, train, and evaluated network models, including ResNet-101, LIP-JPP Net, FPN + Faster R-CNN, to build a complete fashion classification, detection, and segmentation pipeline that identifies color, type, and patterns of clothing in images.
 
@@ -83,6 +84,15 @@ content:
             In addition to the Machine Learning aspect, I helped a small team of developers build a website to visualize the results of our pipeline in various forms including graphs, image catalogs, and reports. I participated in frontend and backend development comprised of a <mark>React</mark> application deployed on <mark>AWS</mark> as an EC2 instance using <mark>Nginx</mark> and a <mark>Spring Boot</mark> service to provide collected data analytics and images.
 
 
+  - title: ""
+    layout: list
+    content:
+      - layout: left
+        title: Computer Vision Lab
+        sub_title: Research Software Engineer
+        caption: August 2017 - December 2018
+        description: | # this will include new lines to allow paragraphs
+            - Developed a novel dropout method largely influenced by Hebbian Learning and distributed programming to provide a regularization method that increased model robustness. Implemented unit and integration testing to ensure reliability of results and maintenance of packages. Collaborated with colleagues to analyze algorithmic complexity and implementation of custom packages/software. Utilized Docker to maintain consistent development and testing of packages.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
