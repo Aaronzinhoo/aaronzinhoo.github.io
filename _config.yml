@@ -8,7 +8,7 @@ version: 2
 # Personal info
 name: Aaron Gonzales
 title: Senior Software Engineer
-email: aarongonzales1@gmai.com
+email: aarongonzales1@gmail.com
 website: https://aaronzinhoo.github.io
 
 # Dark Mode (true/false/never)
@@ -47,7 +47,7 @@ linkedin_username: aaron-gonzales-330482b1
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Aaron and I'm a senior software engineer. I have experience in a multitude of areas with my most recent endeavor being web development. I also have extensive experience in computer vision having done research during my tenure at UCLA and NeuralX. Coming from a Mathematics background, I am    analytical and love to solve difficult problems in innovative, elegant, and simple ways and share what I learn along the way with my team. When I am not coding or reading something software related, I typically am spending quality time with my wife and dog (Miu Miu), playing games, or catching up on anime.
+  Hi, my name's Aaron and I'm a senior software engineer. I have experience in a multitude of areas with my most recent endeavor being web development. I have extensive experience in computer vision having done research and development during my tenure at UCLA and NeuralX. Coming from a Mathematics background, I am analytical and love to solve difficult problems in innovative, elegant, and simple ways. Having been a Jiu-Jitsu teacher for several years of my life I love to share what I know and constantly seek to better those around me. When I am not coding or reading something software related, I typically am spending quality time with my wife and dog (Miu Miu).
 
   I am most skilled in: <mark>Python</mark> and <mark>Overwatch</mark>
 content:
@@ -65,7 +65,21 @@ content:
 
             Our services and CI/CD Pipelines are nice, but eventually needed to get familiarity with our platform tools and services, such as <mark>Kafka</mark>, <mark>Prometheus</mark>, <mark>Grafana</mark>, <mark>LinkerD</mark>, and <mark>Kubernetes</mark>, that were the backbone of our Architecture. I solved several issues related to <mark>Kafka</mark> scaling but one particular solution improved scalability of our microservices by at least 400% and removed a common infinite kafka rebalancing error in our consumers. The issue stemmed from large events forcing consumers to constantly rebalance and was resolved by minimizing size of events pushed to topics while keeping consumers decoupled as well as ensuring consumer settings were better suited for longer running algorithms.
 
-            LinQuest provided me the tools to keep calm and persevere under strenuous conditions. I Deployed and debugged our application with over 30 micro-services on an IL6 staging environment with basic tools and no external resources (A.K.A The Dungeon). We performed Blue/Green deployment inlcuding recovery operations while ensuring minimal downtime and disruption for users. I have become comfortable with identifying and resolving various platform and software issues  including, but not limited to, malformed or incorrect client and CA certificates (authentication with external applications), <mark>Postgres</mark> and <mark>MongoDB</mark> database configuration and storage, <mark>Kustomize</mark> configuration, misalignment in service versions, and <mark>Kafka</mark> broker storage and networking. Considering the lack of resources in the high-side environment I provided extensive documentation on the deployment folder structure,  process, helper scripts for common actions, common issue resolutions to save anyone else from suffering.
+            LinQuest provided me the tools to keep calm and persevere under strenuous conditions. I Deployed and debugged our application with over 30 micro-services on an IL6 staging environment with basic tools (OOTB shell) and no external resources (A.K.A The Dungeon). Our application used a Blue/Green deployment  which ensured minimal downtime and disruption for our users. I am comfortable with identifying and resolving various platform and software issues including, but not limited to, malformed or incorrect client and CA certificates (m/TLS with external applications), <mark>Postgres</mark> and <mark>MongoDB</mark> database configuration and storage, <mark>Kustomize</mark> configuration, misalignment in service versions, and <mark>Kafka</mark> broker storage and networking under these conditions. Considering the lack of resources in the high-side environment I provided extensive documentation on the deployment folder structure,  process, helper scripts for common actions, common issue resolutions to save anyone else from suffering. I believe this makes me highly capable in any environment regardless of the work conditions.
+
+      - layout: left
+        title: NeuralX (MJ Style)
+        sub_title: Research Software Engineer
+        caption: August 2020 - November 2021
+        description: | # this will include new lines to allow paragraphs
+            NeuralX provided me with an opportunity to apply my skills from UCLA in a professional working environment. I quickly adapted into the fast pace startup culture having to independently develop, train, and evaluated network models, including ResNet-101, LIP-JPP Net, FPN + Faster R-CNN, to build a complete fashion classification, detection, and segmentation pipeline that identifies color, type, and patterns of clothing in images.
+
+            I developed and maintained the <mark>ETL</mark> pipeline in <mark>C</mark> (I felt it was simpler than <mark>C++</mark> and felt more comfortable with <mark>C</mark> overall.) to maximize performance of the transform portion while using <mark>Python</mark> and <mark>Bash</mark> to perform data extraction and loading. Images would be uploaded to an <mark>S3 Bucket</mark> alongside some metadata in <mark><MongoDB</mark> for easy fetching. The pipeline acheived 50x amount of images on average versus an initial implementation done in <mark>Python</mark> solely allowing me to run our pipeline on a single machine with minimal costs.
+
+            To ensure reliable, consistent, and easily testable changes to our datasets I developed an MLOps pipeline using <mark>CircleCI</mark> and <mark>Docker</mark> to simplify the tedious data harvesting, training, evaluation, and deployment of our fashion detection application. In addition to our ML pipeline I developed pipelines to and publish libraries into <mark>Nexus</mark> to use across different parts of the pipeline. I also included data visualization libraries such as <mark>Matplotlib</mark> to visualize pipeline data collected in a digestable fashion for our clients.
+
+            In addition to the Machine Learning aspect, I helped a small team of developers build a website to visualize the results of our pipeline in various forms including graphs, image catalogs, and reports. I participated in frontend and backend development comprised of a <mark>React</mark> application deployed on <mark>AWS</mark> as EC2 instance using <mark>Nginx</mark> and a <mark>Spring Boot</mark> service to provide collected data analytics and images.
+
 
 
   - title: Education # Title for the section
@@ -97,6 +111,21 @@ content:
           This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
           I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in software engineering some of my other interests and hobbies are:
+      - Emacs (> Vim)
+      - Jiu-Jitsu (Brown Belt)
+      - Gaming
+      - Hiking
+      - Traveling
+      - Basketball (Go Lakers!)
+      - Anime
+
+      Look at this cool image
+      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
