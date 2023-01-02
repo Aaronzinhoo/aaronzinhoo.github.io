@@ -90,8 +90,7 @@ content:
       - layout: left
         title: University of California, Los Angeles
         caption: 2015 - 2018
-        sub_title: B.S. Mathematics of Computation
-        sub_title: Minor in Cognitive Science
+        sub_title: B.S. Mathematics of Computation, Minor in Cognitive Science
         description: | # this will include new lines to allow paragraphs
           During my time at UCLA, I took many courses related to Algorithms, Artificial Intelligence, and Machine Learning including several graduate level courses. In my free time I would assist in research and spent time in several labs including the Human Perception Laboratory, Computer Vision Lab, and the VCLA Lab.
 
