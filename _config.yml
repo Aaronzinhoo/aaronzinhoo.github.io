@@ -95,7 +95,9 @@ content:
         sub_title: Research Software Engineer
         caption: August 2017 - December 2018
         description: | # this will include new lines to allow paragraphs
-            I participated in researching a novel dropout method largely influenced by Hebbian Learning to provide a regularization method that increased neural network model robustness by 8% on average across datasets. I created a simple pipeline in <mark>Python</mark> to allow users to train and test our model for reproducible results. To enable participation and collaboration from more members of the lab, I packaged this pipeline in <mark>Docker</mark> as a Jupyter Notebook file to provide a simpler UI to interact with. I provided documentation and unit testing for reliability various portions of our pipeline. Collaborated with post docs to analyze algorithmic complexity and implementation of custom packages/software. In addition to development, I maintained the single Ubuntu machine and user accounts in the lab running routine updates and ensuring the necessary packages were installed to perform the various lab memebers work.
+            I participated in researching a novel dropout method largely influenced by Hebbian Learning to provide a regularization method that increased neural network model robustness by 8% on average across datasets. I created a simple pipeline in <mark>Python</mark> to allow users to train and test our model for reproducible results. To enable participation and collaboration from more members of the lab, I packaged this pipeline in <mark>Docker</mark> as a Jupyter Notebook file to provide a simpler UI to interact with. I provided documentation and unit testing for reliability various portions of our pipeline. Collaborated with post docs to analyze algorithmic complexity and implementation of custom packages/software.
+
+            In addition to development, I maintained the single Ubuntu machine and user accounts in the lab running routine updates and ensuring the necessary packages were installed to perform the various lab memebers work.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -105,7 +107,7 @@ content:
         caption: 2015 - 2018
         sub_title: B.S. Mathematics of Computation, Minor in Cognitive Science
         description: | # this will include new lines to allow paragraphs
-          During my time at UCLA, I took courses related to Algorithms, Artificial Intelligence, and Machine Learning including several graduate level courses. In my free time I would assist in research and spent time in several labs including the Human Perception Laboratory, Computer Vision Lab, and the VCLA Lab.
+          During my time at UCLA, I took courses related to Algorithms, Artificial Intelligence, and Machine Learning including several graduate level courses in these fields. In my free time I assisted in research at several labs including the Human Perception Laboratory, Computer Vision Lab, and the VCLA Lab.
 
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
