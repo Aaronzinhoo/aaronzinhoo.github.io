@@ -99,7 +99,7 @@ content:
         quote: >
           A Lab focused on investigating how humans learn and reason, and how intelligent machines might emulate them!
         description: | # this will include new lines to allow paragraphs
-            I participated in researching a novel dropout method largely influenced by Hebbian Learning to provide a regularization method that increased neural network model robustness by 8% on average across datasets. I created a simple pipeline in <mark>Python</mark> to allow users to train and test our model for reproducible results. To enable participation and collaboration from more members of the lab, I packaged this pipeline as a Jupyter Notebook within a <mark>Docker</mark> image to provide a simpler UI to interact with. I provided documentation and unit testing for establishing baseline functionality for various portions of our pipeline.
+            I participated in researching a novel dropout method largely influenced by Hebbian Learning to provide a regularization method that increased neural network model robustness by 8% on average across datasets. I created a simple pipeline in <mark>Python</mark> to allow users to train and test our model for reproducible results. To enable participation and collaboration from more members of the lab, I packaged this pipeline as a Jupyter Notebook within a <mark>Docker</mark> image to deliver an inuitive UI. I documented and unit tested libraries to establis baseline functionality for various portions of our pipeline.
 
             In addition to development, I maintained the single Ubuntu machine and user accounts in the lab running routine updates and ensuring the necessary packages were installed to perform the various lab memebers work.
 
