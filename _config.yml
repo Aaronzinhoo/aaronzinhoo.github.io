@@ -79,7 +79,7 @@ content:
         quote: >
           Artificial Intelligence powered fashion analytics enabling businesses to make smarter decisions.
         description: | # this will include new lines to allow paragraphs
-            NeuralX provided me with an opportunity to apply my skills from UCLA in a professional working environment. I quickly adapted into the fast pace startup culture having to independently preprocess data, modify, train, and evaluate deep learning models, including ResNet-101, LIP-JPP Net, FPN + Faster R-CNN, to build a complete fashion classification, detection, and segmentation pipeline that identifies color, type, and patterns of clothing in images.
+            NeuralX provided me with an opportunity to apply my skills from UCLA in a professional working environment. I quickly adapted into the fast pace startup culture having to independently preprocess data, modify, train, and evaluate <mark>Deep Learning</mark> models, including ResNet-101, LIP-JPP Net, FPN + Faster R-CNN, to build a complete fashion classification, detection, and segmentation pipeline that identifies color, type, and patterns of clothing in images.
 
             Training certain models to detect patterns was especially hard considering patterns like flowers, dots, and cheetah patterns which are relatively similar to machines. Expanding upon my research from the CVL Lab, I was able to develop a novel augmentation algorithm generating synthetic images that captured common traits of pictures in the wild while emphasizing the differences between the patterns mentioned above. This augmentation algorithm along with soft labels increased our pattern model accuracy by ~20% on average.
 
